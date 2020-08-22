@@ -31,7 +31,7 @@ const renderListReduce = (arr, startNum) => {
 
 describe('renderListReduce: renders a list from an array of strings', () => {
 
-  describe('a linked button element opening to google', () => {
+  describe('an ordered list of three items', () => {
     const actual = renderListReduce(['toad', 'frog', 'salamander'], 0);
 
     it('has tagName: "OL"', () => {
@@ -86,7 +86,7 @@ describe('renderListReduce: renders a list from an array of strings', () => {
     }, true);
   });
 
-  describe('a linked button element opening to google', () => {
+  describe('an ordered list of two items', () => {
     const actual = renderListReduce(['orange', 'blue'], 3);
 
     it('has tagName: "OL"', () => {
